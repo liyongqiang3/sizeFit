@@ -22,6 +22,9 @@
     self.tableView.estimatedRowHeight = 80.0 ;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     dataArray = @[@"第一行代码设置了单元格的代码设置了单元格的代码设置了单元格的代码设置了单元格的代码设置了单元格的代码设置了单元格的代码设置了单元格的代码设置了单元格的预估行高s",@"就是现有的原型单元格的高度。第二行代码是改变UITableViewAutomaticDimension的rowHeight属性我们经常会根据label里面的文字的多少，来计算label的尺寸，例如做微博的cell的时候我们经常会根据label里面的文字的多少，来计算label的尺寸，例如做微博的cell的时候",@"并允许标签自动增长"];
+    /// sdjfksdjfksdf sdjfksdf
+
+
     
 
 }
