@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9F19421A19F36B00C1B94E /* stViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F19411A19F36B00C1B94E /* stViewController.m */; };
 		4CA0347319D51951004F772D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0347219D51951004F772D /* main.m */; };
 		4CA0347619D51951004F772D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0347519D51951004F772D /* AppDelegate.m */; };
 		4CA0347919D51951004F772D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0347819D51951004F772D /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C9F19401A19F36B00C1B94E /* stViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stViewController.h; sourceTree = "<group>"; };
+		4C9F19411A19F36B00C1B94E /* stViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stViewController.m; sourceTree = "<group>"; };
 		4CA0346D19D51951004F772D /* TSizeClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSizeClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA0347119D51951004F772D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA0347219D51951004F772D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 			children = (
 				4CA0347119D51951004F772D /* Info.plist */,
 				4CA0347219D51951004F772D /* main.m */,
+				4C9F19401A19F36B00C1B94E /* stViewController.h */,
+				4C9F19411A19F36B00C1B94E /* stViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -242,6 +247,7 @@
 				4CA0347919D51951004F772D /* ViewController.m in Sources */,
 				4CA0349819D51BC5004F772D /* MyTableViewCell.swift in Sources */,
 				4CA0347619D51951004F772D /* AppDelegate.m in Sources */,
+				4C9F19421A19F36B00C1B94E /* stViewController.m in Sources */,
 				4CA0349E19D51C7F004F772D /* MyTableViewController.m in Sources */,
 				4CA0349B19D51BEC004F772D /* TableViewCell.m in Sources */,
 				4CA034A119D55541004F772D /* MySizeFit.m in Sources */,
@@ -441,6 +447,7 @@
 				4CA0349219D51951004F772D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CA0349319D51951004F772D /* Build configuration list for PBXNativeTarget "TSizeClassTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +456,7 @@
 				4CA0349519D51951004F772D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
